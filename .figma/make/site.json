@@ -1,0 +1,10 @@
+{
+  "description": "Enables users to search and browse available dogs and cats for adoption with photos, simplifying the pet adoption process.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
