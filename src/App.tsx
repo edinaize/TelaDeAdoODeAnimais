@@ -691,7 +691,7 @@ function AnimalPage({
         )}
       </section>
     </main>
-  );
+  ); }
 
   const roleLabel: Record<Role, string> = {
   adotante: "Adotante",
@@ -965,7 +965,6 @@ function ProfilePage({
     </main>
   );
 } 
-}
 
 export default function App() {
   const [page, setPage] = useState<Page>("home");
@@ -1355,14 +1354,14 @@ export default function App() {
                           <Icon name="pin" size={15} />
                           {animal.location}
                         </span>
-                       <button
-  className="flex items-center gap-1.5 text-sm font-bold text-[#ea775b] transition hover:gap-2.5"
-  onClick={() => setSelected(animal)}
-  type="button"
->
-  Conhecer
-  <Icon name="arrow" size={17} />
-</button>
+      <button
+        className="flex items-center gap-1.5 text-sm font-bold text-[#ea775b] transition hover:gap-2.5"
+        onClick={() => setSelected(animal)}
+        type="button"
+      >
+        Conhecer
+        <Icon name="arrow" size={17} />
+      </button>
                       </div>
                     </div>
                   </article>
